@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginPageTest {
-	//ok
 
 	@Test
 	public void loginPageTest() throws InterruptedException {
