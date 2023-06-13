@@ -17,5 +17,9 @@ Feature: Blaze Demo Purchase Functionality
     Then User validate meesage "<message>"
 
     Examples: 
-      | url                                | name  | address   | city     | state | zipCode | cardType | cardNumber | month | year | nameOnCard | message                            |
-      | https://blazedemo.com/purchase.php | Lakha | 123 drive | Brooklyn | NY    |   11229 | Visa     |  123456789 | May   | 1980 | Virdi      | Thank you for your purchase today! |
+      | url                                | name       | address              | city          | state | zipCode | cardType         | cardNumber | month    | year | nameOnCard | message                            |
+      | https://blazedemo.com/purchase.php | Lakha      | 123 drive            | Brooklyn      | NY    |   11229 | Visa             |  123456789 | May      | 1980 | Virdi      | Thank you for your purchase today! |
+      | https://blazedemo.com/purchase.php | Sandeep    | 123 Street           | Queens        | NY    |   11370 | American Express |  123456789 | December | 1990 | Virdi      | Thank you for your purchase today! |
+      | https://blazedemo.com/purchase.php | Amir       | 2323 Street          | Sheeshead bay | NY    |   11224 | Diner's Club     |  234567878 | April    | 1970 | Virdi      | Thank you for your purchase today! |
+      | https://blazedemo.com/purchase.php | Dylan      | 4300 atlantic Street | flushing bay  | NY    |   11224 | Visa             |  234567878 |        8 | 2020 | Virdi      | Thank you for your purchase today! |
+      | https://blazedemo.com/purchase.php | Lakhwinder | 2452 77 Street       | East Elmhurst | NY    |   11370 | American Express | 8782738733 | July     | 1983 | Virdi      | Thank you for your purchase today! |
